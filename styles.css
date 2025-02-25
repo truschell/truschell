@@ -1,3 +1,4 @@
+/* CSS */
 /* General Reset */
 * {
     margin: 0;
@@ -8,7 +9,7 @@
 /* Body */
 body {
     font-family: 'Inter', sans-serif;
-    background: #f7f7f7;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
     color: #333;
     display: flex;
     justify-content: center;
@@ -23,6 +24,9 @@ body {
     max-width: 700px;
     text-align: center;
     padding: 40px 20px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Heading */
@@ -30,7 +34,7 @@ h1 {
     font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 30px;
-    color: #222;
+    color: #00796b;
 }
 
 /* Project Links */
@@ -39,7 +43,7 @@ h1 {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 /* Project Anchor */
@@ -48,6 +52,7 @@ h1 {
     text-decoration: none;
     color: inherit;
     padding: 20px;
+    transition: color 0.3s ease;
 }
 
 /* Project Titles */
@@ -55,6 +60,7 @@ h2 {
     font-size: 1.6em;
     font-weight: 500;
     margin-bottom: 8px;
+    color: #00796b;
 }
 
 /* Project Descriptions */
@@ -65,6 +71,10 @@ p {
 
 /* Hover Effect */
 .project:hover {
-    background-color: #f0f0f0;
-    border-color: #bbb;
+    background-color: #e0f2f1;
+    border-color: #00796b;
+}
+
+.portfolio-link:hover {
+    color: #004d40;
 }
