@@ -1,63 +1,92 @@
 /* General Reset */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 /* Container */
 .container {
     text-align: center;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 100%;
+    max-width: 800px;
 }
 
 /* Heading */
 h1 {
-    color: #222;
-    margin-bottom: 20px;
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
-/* Projects */
+/* Project Cards */
 .project {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Links */
+/* Link Wrapper */
 .portfolio-link {
-    display: inline-block;
     text-decoration: none;
-    color: #0073e6;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 10px 15px;
-    border-radius: 5px;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Card Design */
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
-.portfolio-link:hover {
-    background: #0073e6;
-    color: white;
+/* Hover Effects */
+.portfolio-link:hover .card {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Descriptions and Tools */
+/* Project Titles */
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Descriptions */
 .description {
-    font-size: 16px;
+    font-size: 1em;
     color: #555;
-    margin: 5px 0;
+    margin-bottom: 8px;
 }
 
+/* Tools */
 .tools {
-    font-size: 14px;
+    font-size: 0.9em;
     color: #777;
     font-style: italic;
+}
+
+/* Hover Text Colors */
+.portfolio-link:hover h2 {
+    color: #667eea;
 }
