@@ -7,8 +7,8 @@
 
 /* Body */
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right, #667eea, #764ba2);
+    font-family: 'Inter', sans-serif;
+    background: #f7f7f7;
     color: #333;
     display: flex;
     justify-content: center;
@@ -19,74 +19,52 @@ body {
 
 /* Container */
 .container {
-    text-align: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 /* Heading */
 h1 {
-    font-size: 3em;
-    color: #fff;
-    margin-bottom: 40px;
+    font-size: 2.5em;
     font-weight: 600;
-    letter-spacing: 1px;
-}
-
-/* Project Cards */
-.project {
     margin-bottom: 30px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #222;
 }
 
-/* Link Wrapper */
-.portfolio-link {
-    text-decoration: none;
-    display: block;
-    border-radius: 12px;
+/* Project Links */
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     overflow: hidden;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
-/* Card Design */
-.card {
-    background: #fff;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-/* Hover Effects */
-.portfolio-link:hover .card {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+/* Project Anchor */
+.portfolio-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px;
 }
 
 /* Project Titles */
 h2 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 1.6em;
     font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-/* Descriptions */
-.description {
-    font-size: 1em;
-    color: #555;
     margin-bottom: 8px;
 }
 
-/* Tools */
-.tools {
-    font-size: 0.9em;
-    color: #777;
-    font-style: italic;
+/* Project Descriptions */
+p {
+    font-size: 1em;
+    color: #555;
 }
 
-/* Hover Text Colors */
-.portfolio-link:hover h2 {
-    color: #667eea;
+/* Hover Effect */
+.project:hover {
+    background-color: #f0f0f0;
+    border-color: #bbb;
 }
