@@ -18,11 +18,17 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
 }
 
 /* Heading */
 h1 {
     color: #222;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.project {
     margin-bottom: 20px;
 }
 
@@ -41,4 +47,17 @@ h1 {
 .portfolio-link:hover {
     background: #0073e6;
     color: white;
+}
+
+/* Descriptions and Tools */
+.description {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.tools {
+    font-size: 14px;
+    color: #777;
+    font-style: italic;
 }
