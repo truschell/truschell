@@ -51,24 +51,19 @@ h2 {
     text-decoraion: underline;
 }
 
-.about-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.headshot img {
-    width: 120px;
-    height: 120px;
+/* Headshot */
+#headshot img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 3px solid #00796b;
 }
 
-.bio {
-    flex: 1;
-    max-width: 500px;
+/* About Section */
+#about p {
+    font-size: 1em;
+    color: #555;
 }
-
 
 
 /* Skills - Display in a Row */
