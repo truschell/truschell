@@ -34,16 +34,14 @@ section {
 
 /* Header */
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 600;
-    margin-bottom: 10px;
     color: #00796b;
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-weight: 500;
-    margin-bottom: 20px;
     color: #005a4a;
     text-decoraion: underline;
 }
@@ -59,7 +57,7 @@ h2 {
 
 /* About Section */
 #about p {
-    font-size: 1.1em;
+    font-size: .8em;
     color: #555;
 }
 
@@ -74,7 +72,7 @@ h2 {
 }
 
 #skills li {
-    font-size: 1.1em;
+    font-size: .8em;
     background: #e0f2f1;
     padding: 10px 15px;
     border-radius: 8px;
@@ -105,14 +103,13 @@ h2 {
 }
 
 .project h3 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 500;
-    margin-bottom: 8px;
     color: #00796b;
 }
 
 .project p {
-    font-size: 1em;
+    font-size: .8em;
     color: #555;
 }
 
