@@ -1,129 +1,75 @@
-/* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
 
-        /* Body */
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(to bottom, #e3f2fd, #ffffff);
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
 
-        /* Container */
-        .container {
-            width: 100%;
-            max-width: 800px;
-            text-align: center;
-            padding: 40px 20px;
-            border-radius: 16px;
-            background: #ffffff;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
+/* Header */
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #2c3e50;
+}
 
-        /* Header */
-        header h1 {
-            font-size: 2.5em;
-            font-weight: 700;
-            color: #00796b;
-        }
+header h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #7f8c8d;
+}
 
-        header h2 {
-            font-size: 1.4em;
-            font-weight: 500;
-            color: #555;
-            margin-bottom: 20px;
-        }
+/* Headshot */
+#headshot img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
 
-        /* Headshot */
-        #headshot img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 20px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+/* Sections */
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
-        /* Sections */
-        section {
-            margin: 30px 0;
-        }
+/* Skills */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
 
-        section h2 {
-            font-size: 1.8em;
-            color: #00796b;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #00796b;
-            display: inline-block;
-            padding-bottom: 5px;
-        }
+.skills-list li {
+    background: #ecf0f1;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
 
-        section p, li {
-            font-size: 1.1em;
-            color: #555;
-        }
+/* Portfolio */
+.project {
+    margin: 15px 0;
+}
 
-        /* Skills List */
-        .skills-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            list-style: none;
-            padding: 0;
-        }
+.portfolio-link {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
 
-        .skills-list li {
-            background: #e0f2f1;
-            padding: 10px 15px;
-            border-radius: 8px;
-            font-weight: 500;
-        }
-
-        /* Portfolio */
-        .project {
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .portfolio-link {
-            display: block;
-            text-decoration: none;
-            color: inherit;
-            padding: 20px;
-            transition: color 0.3s ease;
-        }
-
-        .project:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        /* Resume Button */
-        .btn {
-            display: inline-block;
-            padding: 12px 20px;
-            background: linear-gradient(135deg, #00796b, #004d40);
-            color: #fff;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 1.1em;
-            transition: background 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .btn:hover {
-            background: #004d40;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-        }
+.portfolio-link:hover {
+    color: #1abc9c;
+}
