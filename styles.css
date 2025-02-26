@@ -1,5 +1,4 @@
-
-        /* General Reset */
+/* General Reset */
         * {
             margin: 0;
             padding: 0;
@@ -9,7 +8,7 @@
         /* Body */
         body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+            background: linear-gradient(to bottom, #f5f5f5, #ffffff);
             color: #333;
             display: flex;
             justify-content: center;
@@ -21,7 +20,7 @@
         /* Container */
         .container {
             width: 100%;
-            max-width: 800px;
+            max-width: 850px;
             text-align: center;
             padding: 40px 20px;
             border-radius: 16px;
@@ -31,41 +30,41 @@
 
         /* Header */
         header h1 {
-            font-size: 2.5em;
+            font-size: 2.8em;
             font-weight: 700;
             color: #00796b;
         }
 
         header h2 {
-            font-size: 1.4em;
+            font-size: 1.5em;
             font-weight: 500;
-            color: #555;
+            color: #444;
             margin-bottom: 20px;
         }
 
         /* Headshot */
         #headshot img {
-            width: 150px;
-            height: 150px;
+            width: 160px;
+            height: 160px;
             border-radius: 50%;
             object-fit: cover;
             margin: 20px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
 
         /* Sections */
         section {
-            margin: 30px 0;
+            margin: 35px 0;
         }
 
         section h2 {
-            font-size: 1.8em;
+            font-size: 2em;
             color: #00796b;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         section p, li {
-            font-size: 1.1em;
+            font-size: 1.2em;
             color: #555;
         }
 
@@ -77,14 +76,15 @@
 
         #skills li {
             background: #e0f2f1;
-            padding: 10px;
-            margin: 5px 0;
+            padding: 12px;
+            margin: 6px 0;
             border-radius: 8px;
+            font-weight: 500;
         }
 
         /* Portfolio */
         .project {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             border: 1px solid #ddd;
             border-radius: 8px;
             overflow: hidden;
@@ -95,28 +95,27 @@
             display: block;
             text-decoration: none;
             color: inherit;
-            padding: 20px;
+            padding: 25px;
             transition: color 0.3s ease;
         }
 
         .project:hover {
-            transform: scale(1.05);
+            transform: scale(1.06);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
 
         /* Resume Button */
         .btn {
             display: inline-block;
-            padding: 12px 20px;
+            padding: 14px 22px;
             background: #00796b;
             color: #fff;
             text-decoration: none;
             border-radius: 8px;
-            font-size: 1.1em;
+            font-size: 1.2em;
             transition: background 0.3s ease;
         }
 
         .btn:hover {
             background: #004d40;
         }
-    
