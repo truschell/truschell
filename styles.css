@@ -1,8 +1,6 @@
 /* General Reset */
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 /* Body */
@@ -31,7 +29,7 @@ body {
 
 /* Section Spacing */
 section {
-    margin-bottom: 50px; /* Increased slightly */
+    margin-bottom: 40px;
 }
 
 /* Header */
@@ -47,7 +45,7 @@ h2 {
     font-weight: 500;
     margin-bottom: 20px;
     color: #005a4a;
-    text-decoration: underline; /* Fixed typo */
+    text-decoraion: underline;
 }
 
 /* Headshot */
@@ -63,20 +61,15 @@ h2 {
 #about p {
     font-size: 1.1em;
     color: #555;
-    text-align: center;
 }
 
-/* Skills - Left Align Instead of Center */
-#skills {
-    text-align: left;
-}
-
+/* Skills - Display in a Row */
 #skills ul {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Align to the left */
+    justify-content: center;
     gap: 10px;
 }
 
@@ -89,32 +82,25 @@ h2 {
     display: inline-block;
     min-width: 120px;
     text-align: center;
-    transition: background-color 0.3s ease;
 }
 
-/* Hover Effect for Skills */
-#skills li:hover {
-    background-color: #b2dfdb;
-}
+
 
 /* Portfolio */
-#portfolio {
-    text-align: left;
-}
-
 .project {
     margin-bottom: 20px;
+    border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     transition: background-color 0.3s ease, border-color 0.3s ease;
     border: 1.5px solid #ccc;
-    padding: 20px;
 }
 
 .project a {
     display: block;
     text-decoration: none;
     color: inherit;
+    padding: 20px;
     transition: color 0.3s ease;
 }
 
