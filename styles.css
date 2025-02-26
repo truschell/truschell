@@ -61,7 +61,7 @@ h2 {
 
 /* About Section */
 #about p {
-    font-size: .8em;
+    font-size: 1em;
     color: #555;
 }
 
@@ -76,7 +76,7 @@ h2 {
 }
 
 #skills li {
-    font-size: .8em;
+    font-size: 1em;
     background: #e0f2f1;
     padding: 10px 15px;
     border-radius: 8px;
@@ -90,7 +90,7 @@ h2 {
 
 /* Portfolio */
 .project {
-    margin: 0 30px 30px 30px;
+    margin: 0 20px 20px 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -102,7 +102,7 @@ h2 {
     display: block;
     text-decoration: none;
     color: inherit;
-    padding: 20px;
+    padding: 10px;
     transition: color 0.3s ease;
 }
 
@@ -113,7 +113,7 @@ h2 {
 }
 
 .project p {
-    font-size: .8em;
+    font-size: 1em;
     color: #555;
 }
 
