@@ -53,7 +53,8 @@ header h2 {
 
 /* Sections */
 section {
-    margin: 20px 0;
+    margin: 30px 0;
+    padding: 10px 0;
 }
 
 section h2 {
@@ -67,6 +68,24 @@ section h2 {
 section p {
     font-size: 1em;
     color: #555;
+}
+
+/* Skills List */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #e0f2f1;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+    white-space: nowrap;
 }
 
 /* Resume Button */
