@@ -53,8 +53,8 @@ header h2 {
 
 /* Sections */
 section {
-    margin: 30px 0;
-    padding: 10px 0;
+    margin: 40px 0;
+    padding: 15px 0;
 }
 
 section h2 {
@@ -86,6 +86,29 @@ section p {
     border-radius: 6px;
     font-weight: 500;
     white-space: nowrap;
+}
+
+/* Portfolio Projects */
+.project {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    background: linear-gradient(135deg, #00796b, #004d40);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.project:hover {
+    background: #004d40;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Resume Button */
