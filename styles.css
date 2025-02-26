@@ -52,6 +52,7 @@ h2 {
     height: 150px;
     border-radius: 50%;
     border: 3px solid #00796b;
+    margin-bottom: 0;
 }
 
 /* About Section */
