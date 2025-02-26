@@ -35,7 +35,7 @@ section:not(#headshot) {
 /* Header */
 header h2 {
     margin-top: 0;
-    font-size: 1em
+    font-size: 1em;
     color: #555;
 }
 
@@ -45,7 +45,8 @@ h1 {
     margin: auto;
 }
 
-h2:not(header h2) {
+/* Section Headers */
+section h2 {
     font-weight: 500;
     color: #005a4a;
     text-decoration: underline;
