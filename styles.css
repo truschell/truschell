@@ -86,7 +86,7 @@ h2 {
 
 /* Portfolio */
 .project {
-    margin-bottom: 20px;
+    margin: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -103,7 +103,7 @@ h2 {
 }
 
 .project h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
     color: #00796b;
 }
