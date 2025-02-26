@@ -65,22 +65,6 @@ h2 {
     color: #555;
 }
 
-.linkedin-button {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #0077b5;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background 0.3s ease;
-}
-
-.linkedin-button:hover {
-    background-color: #005a8e;
-}
-
 
 /* Skills - Display in a Row */
 #skills ul {
