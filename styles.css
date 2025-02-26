@@ -33,6 +33,10 @@ section:not(#headshot) {
 }
 
 /* Header */
+header h2 {
+    margin-top: 0;
+}
+
 h1 {
     font-size: 2em;
     font-weight: 600;
