@@ -120,14 +120,12 @@ ul {
 #skills .tech {
     background: #e0f2f1;  /* Light teal */
     color: #004d40;       /* Dark teal */
-    font-weight: bold;
 }
 
 /* Soft Skills */
 #skills .soft {
-    background: #fff3e0;  /* Light orange */
-    color: #bf360c;       /* Dark orange */
-    font-style: italic;
+    background: #e0e0e0;  /* Light gray */
+    color: #424242;       /* Dark gray */
 }
 
 /* Hover Effect for Both */
@@ -136,8 +134,9 @@ ul {
 }
 
 #skills .soft:hover {
-    background: #ffcc80; /* Darker orange */
+    background: #cfd8dc; /* Light blue-gray */
 }
+
 
 
 /* Portfolio Projects */
