@@ -40,7 +40,7 @@ nav {
     border-radius: 0; /* Remove rounded corners */
 }
 
-
+/* Ensure the nav content is centered */
 nav ul {
     list-style: none;
     display: flex;
@@ -48,7 +48,8 @@ nav ul {
     align-items: center;
     padding: 0;
     margin: 0;
-    gap: 20px;
+    max-width: 800px; /* Match container width */
+    margin: 0 auto; /* Center the navbar contents */
 }
 
 nav ul li {
