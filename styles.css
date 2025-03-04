@@ -68,13 +68,6 @@ section h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
 }
 
-#about h2 {
-    text-align: center;
-    font-size: 1.8em;
-    color: #005a4a;
-    text-decoration: none;
-}
-
 #about p {
     color: #333;
     font-size: 1.1em;
