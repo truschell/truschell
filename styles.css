@@ -125,7 +125,7 @@ ul {
 
 /* Soft Skills */
 #skills .soft {
-    background: #e0e0e0;  /* Light gray */
+    background: #d6d6d6;  /* Slightly darker gray */
     color: #424242;       /* Dark gray */
 }
 
@@ -135,7 +135,7 @@ ul {
 }
 
 #skills .soft:hover {
-    background: #cfd8dc; /* Light blue-gray */
+    background: #bdbdbd;  /* More noticeable hover contrast */
 }
 
 
