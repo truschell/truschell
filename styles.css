@@ -24,7 +24,13 @@ body {
     padding: 40px 20px;
     border-radius: 16px;
     background: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Section Spacing */
@@ -32,7 +38,7 @@ section:not(#headshot) {
     margin-bottom: 40px;
 }
 
-/* Header */
+/* Headers */
 header h2 {
     margin-top: 0;
     font-size: 1em;
@@ -45,11 +51,11 @@ h1 {
     margin: auto;
 }
 
-/* Section Headers */
 section h2 {
-    font-weight: 500;
+    font-weight: 600;
     color: #005a4a;
     text-decoration: underline;
+    font-size: 1.4em;
 }
 
 /* Headshot */
@@ -58,14 +64,24 @@ section h2 {
     height: 150px;
     border-radius: 50%;
     border: 3px solid #00796b;
+    transition: transform 0.3s ease;
+}
+
+#headshot img:hover {
+    transform: scale(1.05);
 }
 
 /* About Section */
 #about {
-    background: #f0fdfa; /* Light teal background for subtle contrast */
+    background: #f0fdfa;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#about:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 #about p {
@@ -80,8 +96,8 @@ section h2 {
     color: #00796b;
 }
 
-/* Key Traits */
-#about ul {
+/* Lists - General Styling */
+ul {
     list-style: none;
     padding: 0;
     margin: 20px 0;
@@ -91,6 +107,7 @@ section h2 {
     gap: 10px;
 }
 
+/* Key Traits */
 #about ul li {
     background: #00796b;
     color: #ffffff;
@@ -99,49 +116,38 @@ section h2 {
     font-weight: bold;
     font-size: 1em;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease, transform 0.2s ease;
 }
 
 #about ul li:hover {
     background: #005a4a;
+    transform: scale(1.05);
 }
 
-
-/* Skills - Display in a Row */
-#skills ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    list-style-type: none;
-}
-
+/* Skills */
 #skills li {
     font-size: 1em;
     background: #e0f2f1;
     padding: 10px 15px;
     border-radius: 8px;
     color: #004d40;
-    display: inline-block;
     min-width: 120px;
     text-align: center;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
-#skills ul li:hover {
+#skills li:hover {
     background: #aadbd9;
+    transform: scale(1.05);
 }
 
-
-/* Portfolio */
+/* Portfolio Projects */
 .project {
     margin: 0 20px 20px 20px;
-    border: 1px solid #ddd;
+    border: 1.5px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
-    border: 1.5px solid #ccc;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 }
 
 .project a {
@@ -164,6 +170,7 @@ section h2 {
 .project:hover {
     background-color: #e0f2f1;
     border-color: #00796b;
+    transform: scale(1.02);
 }
 
 .project a:hover {
