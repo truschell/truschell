@@ -141,6 +141,10 @@ ul {
     gap: 10px;
 }
 
+#about ul {
+    justify content: left;
+}
+
 /* Key Traits */
 #about ul li {
     background: #00796b;
