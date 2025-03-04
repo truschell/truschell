@@ -61,9 +61,57 @@ section h2 {
 }
 
 /* About Section */
+#about {
+    background: #f0fdfa; /* Light teal background for subtle contrast */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #005a4a;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
 #about p {
-    color: #555;
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.8;
     text-align: left;
+    margin-bottom: 15px;
+}
+
+#about strong {
+    color: #00796b;
+}
+
+/* Key Traits */
+#about ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#about ul li {
+    background: #00796b;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#about ul li:hover {
+    background: #005a4a;
 }
 
 
