@@ -75,6 +75,7 @@ section h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    list-style-type: none;
 }
 
 #skills li {
