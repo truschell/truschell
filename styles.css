@@ -109,17 +109,36 @@ ul {
 /* Skills */
 #skills li {
     font-size: 1em;
-    background: #e0f2f1;
     padding: 10px 15px;
     border-radius: 8px;
-    color: #004d40;
     min-width: 120px;
     text-align: center;
+    transition: background 0.3s ease-in-out;
 }
 
-#skills li:hover {
-    background: #aadbd9;
+/* Technical Skills */
+#skills .tech {
+    background: #e0f2f1;  /* Light teal */
+    color: #004d40;       /* Dark teal */
+    font-weight: bold;
 }
+
+/* Soft Skills */
+#skills .soft {
+    background: #fff3e0;  /* Light orange */
+    color: #bf360c;       /* Dark orange */
+    font-style: italic;
+}
+
+/* Hover Effect for Both */
+#skills .tech:hover {
+    background: #aadbd9; /* Darker teal */
+}
+
+#skills .soft:hover {
+    background: #ffcc80; /* Darker orange */
+}
+
 
 /* Portfolio Projects */
 .project {
