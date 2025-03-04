@@ -120,6 +120,7 @@ ul {
 #skills .tech {
     background: #e0f2f1;  /* Light teal */
     color: #004d40;       /* Dark teal */
+    font-weight: bold;
 }
 
 /* Soft Skills */
