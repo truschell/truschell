@@ -24,13 +24,7 @@ body {
     padding: 40px 20px;
     border-radius: 16px;
     background: #ffffff;
-    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.container:hover {
-    transform: scale(1.02);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Section Spacing */
@@ -64,11 +58,6 @@ section h2 {
     height: 150px;
     border-radius: 50%;
     border: 3px solid #00796b;
-    transition: transform 0.3s ease;
-}
-
-#headshot img:hover {
-    transform: scale(1.05);
 }
 
 /* About Section */
@@ -77,11 +66,6 @@ section h2 {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-}
-
-#about:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 #about p {
@@ -116,12 +100,10 @@ ul {
     font-weight: bold;
     font-size: 1em;
     text-align: center;
-    transition: all 0.3s ease, transform 0.2s ease;
 }
 
 #about ul li:hover {
     background: #005a4a;
-    transform: scale(1.05);
 }
 
 /* Skills */
@@ -133,12 +115,10 @@ ul {
     color: #004d40;
     min-width: 120px;
     text-align: center;
-    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 #skills li:hover {
     background: #aadbd9;
-    transform: scale(1.05);
 }
 
 /* Portfolio Projects */
@@ -147,15 +127,12 @@ ul {
     border: 1.5px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 }
 
 .project a {
     display: block;
     text-decoration: none;
-    color: inherit;
     padding: 10px;
-    transition: color 0.3s ease;
 }
 
 .project h3 {
@@ -170,7 +147,6 @@ ul {
 .project:hover {
     background-color: #e0f2f1;
     border-color: #00796b;
-    transform: scale(1.02);
 }
 
 .project a:hover {
