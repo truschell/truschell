@@ -129,6 +129,9 @@ section h2 {
     text-align: center;
 }
 
+#skills ul li:hover {
+    background: #aadbd9;
+}
 
 
 /* Portfolio */
