@@ -26,16 +26,7 @@ body {
     background: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow-y: hidden;
-}
-
-/* Navbar Styles */
-nav {
-    background-color: #333;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    margin-top: 20px; /* Prevents content from being too close to the navbar */
 }
 
 /* Navbar Styles */
@@ -46,8 +37,8 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0; /* Fully separates navbar from the container */
 }
 
 nav ul {
@@ -81,7 +72,6 @@ section {
     margin: auto 20px;
     scroll-margin-top: 60px; /* Adjust to match navbar height */
 }
-
 
 /* Section Spacing */
 section:not(#headshot) {
@@ -194,8 +184,6 @@ ul {
     background: #bdbdbd;  /* More noticeable hover contrast */
 }
 
-
-
 /* Portfolio Projects */
 .project {
     margin: 0 20px 20px 20px;
@@ -255,5 +243,3 @@ ul {
 #connect a:hover {
     color: #004d40;
 }
-
-
