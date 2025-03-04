@@ -72,10 +72,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transform: scale(1.05);
+    background-color: #FFFFFF33;
 }
 
+/* Prevent navbar from covering section headers */
+section {
+    scroll-margin-top: 80px; /* Adjust to match navbar height */
+}
 
 
 /* Section Spacing */
